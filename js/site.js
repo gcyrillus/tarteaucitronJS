@@ -1,0 +1,10 @@
+/**
+	* Plugin 			tarteaucitronJS
+	*
+	* @CMS required			PluXml 
+	*
+	* @version			0.0
+	* @date				2023-12-11
+	* @author 			G.Cyrillus
+**/
+/* your javascript here */

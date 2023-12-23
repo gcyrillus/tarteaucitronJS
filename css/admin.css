@@ -1,0 +1,210 @@
+/**
+	* Plugin 			tarteaucitronJS
+	*
+	* @CMS required			PluXml 
+	*
+	* @version			0.0
+	* @date				2023-12-11
+	* @author 			G.Cyrillus
+**/
+
+/* do not disturb editing */
+.tox-promotion-link,a[href="https://www.tiny.cloud/powered-by-tiny?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v6"] {
+	display: none !important;
+}
+/* end disturbing */
+.repeat-grid-300 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 1em;
+}
+.repeat-grid-300 p {
+	padding: 5px;
+	margin: 0;
+	border: solid 1px silver;
+	border-radius: 3px;
+}
+.repeat-grid-300 input[readonly] {
+	all: revert;
+	border: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+}
+a.aWizard {
+	background: gold;
+	box-shadow: 0 0 1em;
+	padding-inline-end: 0.5em;
+	border-radius: 10%/100%;
+	border: solid 1px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration-color: transparent;
+	margin-inline: 1.75em;
+}
+h2.ib {
+	display: inline-block;
+	margin-inline: 1.75em;
+}
+textarea {
+	resize: block;
+	width: 100%;
+	background: white;
+}
+textarea[disabled] {
+	color: blue;
+}
+#settings li {
+	list-style: none;
+}
+#settings li label {
+	margin-inline-start: -2em;
+}
+#settings li label {
+	font-weight: bolder;
+	color: red;
+}
+.form-grid {
+	display: grid;
+	grid-template-columns: auto 1fr 2em;
+	gap: 0.5em;
+}
+
+[data-service] {
+	display: block;
+	border: solid 1px;
+	border-radius: 3px;
+	grid-column: 3;
+	margin: auto;
+	padding: 0 0.5em;
+	cursor: pointer;
+	background: navajowhite;
+	color: #777;
+}
+input#cookie-service {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+#view {/* addblocker trick */
+	display: block !important;
+}
+select {
+	grid-column: 1;
+}
+
+#selection,#configList {/* multiple select to trick n' treat */
+	border: none;
+	height: 0;
+	border-width:0 ;
+	visibility:hidden;
+}
+[id^="push_"] ,
+[id^="widget_"]{
+	width:100%;
+}
+#tabpage_Installed ul  {	
+	list-style-type:decimal;
+}
+#tabpage_Installed ul ul  {	
+	background: #bee;
+	padding: 1em;
+	clear:both;
+	border-radius: 0 0 15px 15px;
+	margin: 1px;
+}
+#tabpage_Installed ul ul li  {
+	max-height:0;
+	padding-top:0;
+	overflow:hidden;
+	transition: 1s .25s;
+}
+#tabpage_Installed ul li:hover li {
+	padding-top:1em;
+	max-height:50em;
+}
+#tabpage_Installed ul ul li {
+	padding-inline-start:2em;
+	display:grid;
+	grid-template-columns: auto 1fr
+}
+#tabpage_Installed ul ul li :is(textarea,input,pre) {
+	grid-column: 1/-1;
+	max-width:100%;
+	white-space:pre-wrap;
+	margin:0;
+}
+#tabpage_Installed ul ul li label {
+	font-weight: bolder;
+	margin-inline-start:-2em;
+}
+#tabpage_Installed ul ul li input {
+	color:green;
+	font-weight: bolder;
+}
+#tabpage_Installed ul ul li pre {
+	color:blue;
+	max-height:1.4em;
+	transition: 0.5s .25s;
+}
+#tabpage_Installed ul ul li pre:hover {
+	max-height:14em;
+	transition:.25s;
+}	
+#tabpage_Installed li::marker,
+#tabpage_Installed li::first-line{
+	color:goldenrod;
+	font-size:2em;
+}	
+#tabpage_Installed li .configServiceCaption {
+	display:block;
+	text-align:center;
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	transition:3s  0.25s;
+	translate:0 50% ;
+}
+#tabpage_Installed li:hover .configServiceCaption {
+	opacity:0;
+	z-index: -1;
+	transition: 0.25s;
+}
+#tabpage_Installed li a:first-of-type,
+.red {
+	color:red;
+}
+#tabpage_Installed > ul > li{
+	border-top:solid 1px;
+	margin-top:5px;
+	border-radius:15px;
+	box-shadow:inset 0 0 1px, 0 0 1px;	
+	text-indent: 1em;
+}
+#tabpage_Installed > ul > li:nth-child(odd){
+	background:#FFB90044
+}
+#tabpage_Installed li a ,
+#tabpage_Installed li button{
+	float:right;
+	margin:1em 2em 0.5em;
+	padding:0 .5em;
+	border:solid 1px;
+	background:#eee;
+	border-radius:5px;
+	color:green;
+	line-height:1.9
+}
+li[data-unset]::before{
+  content:'non-configuré';
+  display:inline-block;
+  font-size:1rem;
+  color:black;
+  padding:.25em .5em ;
+  text-indent:0;
+  margin-inline-end: .5em;
+  border:solid red;
+  background:yellow;
+  vertical-align:middle;
+}
