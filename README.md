@@ -1,5 +1,7 @@
 # tarteaucitronJS
 
+Echange et SAV sur le forum de pluxml à: https://forum.pluxml.org/discussion/7573/plugin-tarteaucitronjs
+
 <div role="tab-list">		
 <div role="tabpanel" id="tab1" class="tabpanel">
 <p>Ces quelques lignes vont vous aider à prendre en main ce plugin qui embarque le celebre  <a href="https://tarteaucitron.io/">tarteauciron.js</a></p>
