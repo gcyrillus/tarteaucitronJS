@@ -106,17 +106,18 @@
 				
 				<div role="tabpanel" id="tab5" class="tabpanel hidden">
 					<h2>L'administration</h2>
-					<p>En deux parties, elle reprend  </p>
+					<p>En trois parties, elle reprend  </p>
 					<ol>
-						<li>la premiere vous permet d'ajouter l'un des 200 services que tarteaucitron gere dans sa version gratuite.<small>(etape 3 sur tarteaucitron.io)</small></li>
+						<li>la premiere vous permet d'ajouter l'un des 206 services que tarteaucitron gere dans sa version gratuite.<small>(etape 3 sur tarteaucitron.io)</small></li>
 						<li>la deuxieme vous permet de mettre à jour les codes des differents services en y inserant vos identifiant, clé des applications, 
 						ainsi que les portions de codes  à inserer dans vos pages ou thèmes. </li>
+						<li>la troisieme partie s'adresse aux experts sachant créer et configurer un service que tarteaucitron.js n'offre pas nativement</li>
 					</ol>
 				</div>						
 				
 				<div role="tabpanel" id="tabEnd" class="tabpanel hidden">
 					<h2>Yapuka</h2>
-					<p class="alert orange">Une fois vos services sélectionnés et configurés et les codes à ajouter dans vos pages ou votre thème,<br>
+					<p class="alert orange">Une fois vos services sélectionnés et configurés et les codes à ajouter dans vos pages ou votre thème pour certains services,<br>
 						n'oubliez pas de réactiver le plugin.</p>
 
 				</div>		

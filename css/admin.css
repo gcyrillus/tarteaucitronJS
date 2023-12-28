@@ -208,3 +208,16 @@ li[data-unset]::before{
   background:yellow;
   vertical-align:middle;
 }
+#tabpage_Custom fieldset {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 1em;
+}
+#tabpage_Custom fieldset p {
+  border:solid 1px;
+  padding:0.5em;
+  margin:0;
+}
+#tabpage_Custom fieldset p:nth-last-child(5)~p {
+  grid-column:1/-1;
+}

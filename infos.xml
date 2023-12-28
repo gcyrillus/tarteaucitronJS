@@ -2,9 +2,10 @@
 	<document>
 	<title><![CDATA[tarteaucitronJS]]></title>
 	<author><![CDATA[G.Cyrillus]]></author>
-	<version>0.0</version>
-	<date>2023-12-11</date>
+	<version>1.0</version>
+	<date>2023-12-28</date>
 	<site>https://pluxopolis.net/thecrock</site>
-	<description><![CDATA[Embarque le script tarteaucitron.js dans sa version gratuite, avec 206 Services. Configurable via l'administration.]]></description>
+	<description><![CDATA[Embarque le script tarteaucitron.js dans sa version gratuite, avec ses 206 Services préconfigurés. Configurable via l'administration.
+		Ajout de services possible via l'admin pour les experts, support de création de nouveau service à voir sur le site de l'auteur de tarteaucitron.js]]></description>
 	<scope></scope>
 	</document>
